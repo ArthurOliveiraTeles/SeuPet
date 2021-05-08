@@ -1,0 +1,66 @@
+html {
+    /*a cada 1rem será considerada 10px */
+    /* o rem pega o tamanho do pai que é esse font-size aqui do html */
+    font-size: 67.5%;
+}
+
+main {
+    font-size: 1.8rem;
+}
+
+#banner {
+    width: 100%;
+    border: 1px solid black;
+    height: 20.0rem;
+    background-color: #561D25;
+    font-size: 1.8rem;
+}
+
+#titulo1 {
+    float: left;
+    margin-left: 10%;
+    margin-top: 3.0rem;
+    color: white;
+    font-size: 6.0rem;
+}
+
+#barraPesquisa {
+    width: 50%;
+    float: right;
+    margin-top: 6.0rem;
+    margin-right: 20%;
+}
+
+#campoPesquisa {
+    font-size: 1.8rem;
+}
+
+#botaoPesquisa {
+    font-size: 1.8rem;
+}
+
+
+/* media queries */
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    #titulo1 {
+        font-size: 10.0rem;
+        margin-left: 4%;
+        margin-top: 0;
+    }
+
+    #barraPesquisa {
+        display: none;
+        width: 45%;
+        float: right;
+        margin-top: 6.0rem;
+        margin-right: 10%;
+    }
+
+    #banner {
+        height: 16.0rem;
+    }
+}

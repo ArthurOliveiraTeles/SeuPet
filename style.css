@@ -26,9 +26,9 @@ main {
 
 #barraPesquisa {
     width: 50%;
-    float: right;
+    float: left;
+    margin-left: 9%; /*Preciso ir arrumando isso aqui nos medias queries, observando os breakpoints */
     margin-top: 6.0rem;
-    margin-right: 20%;
 }
 
 #campoPesquisa {
@@ -37,6 +37,31 @@ main {
 
 #botaoPesquisa {
     font-size: 1.8rem;
+}
+
+#loginUsuario {
+    float: left;
+    width: 100px;
+    color: white;
+    margin-left: 2%;
+    margin-top: 6.0rem;
+    font-size: 1.6rem;
+}
+
+#pet1 {
+    margin-top: 20px;
+    margin-left: 8%;
+}
+
+#pet2 {
+    margin-top: 20px;
+    margin-left: 8%;
+}
+
+
+
+.limpar {
+    clear: both;
 }
 
 

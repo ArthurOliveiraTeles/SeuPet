@@ -58,7 +58,38 @@ main {
     margin-left: 8%;
 }
 
+#carrinho {
+    margin-top: 7.0rem;
+    float: left;
+    margin-left: 2%;
+    font-size: 1.6rem;
+    color: white;
+}
 
+#menu {
+    float: right;
+    border: 1px solid green;
+    width: 1500px;
+    margin-right: 10%;
+    margin-top: 20px;
+
+}
+
+#areaMenu {
+    margin-left: 15%;
+    list-style: none;
+    padding: 0px;
+}
+
+.opcoes {
+    width: 220px; /* ~(1024/3) */
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 .limpar {
     clear: both;

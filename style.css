@@ -25,9 +25,9 @@ main {
 }
 
 #barraPesquisa {
-    width: 50%;
+    width: 52%;
     float: left;
-    margin-left: 9%; /*Preciso ir arrumando isso aqui nos medias queries, observando os breakpoints */
+    margin-left: 5%; /*Preciso ir arrumando isso aqui nos medias queries, observando os breakpoints */
     margin-top: 6.0rem;
 }
 

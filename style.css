@@ -68,30 +68,67 @@ main {
 
 #menu {
     float: right;
-    border: 1px solid green;
-    width: 1500px;
-    margin-right: 10%;
-    margin-top: 20px;
+    margin-right: 18.5%;
+    margin-top: 31px;
 
 }
 
 #areaMenu {
-    margin-left: 15%;
+    margin-left: 0%;
     list-style: none;
     padding: 0px;
 }
 
 .opcoes {
-    width: 220px; /* ~(1024/3) */
+    width: 22.0rem; /* ~(1024/3) */
     height: 46.8px;
+    border-right: 1px solid rgba(0, 0, 0, 0.322);
     text-align: center;
-    border: 1px solid black;
     float: left;
-    margin-top: 10px;
+    margin-top: 0px;
+}
+
+#opcInicio {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 40%;
+}
+
+#opcCachorro {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 32%;
+}
+
+#opcGato {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 38%;
+}
+
+#opcMedicamento {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 24%;
+}
+
+#opcSobre {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 38%;
 }
 
 .limpar {
     clear: both;
+}
+
+.branco {
+    color: white;
 }
 
 

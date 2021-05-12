@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -30,16 +31,18 @@
 
             <div id="menu">
                 <ul id="areaMenu">
-                    <li class="opcoes"><a class="textOpc" href="index.html">Início</a></li>
-                    <li class="opcoes"><a class="textOpc" href="sobre.html">Opção 2</a></li>
-                    <li class="opcoes"><a class="textOpc" href="info.html">Opção 3</a></li>
-                    <li class="opcoes"><a class="textOpc" href="info.html">Opção 4</a></li>
-                    <li class="opcoes"><a class="textOpc" href="info.html">Opção 5</a></li>
+                    <a href="index.html"><li id="inicio" class="opcoes" onmouseover="Preencher('inicio', testa=true)" onmouseleave="Preencher('inicio', testa=false)"><span id="opcInicio" class="branco">Início</span></li></a>
+                    <a href="cachorros.html"><li id="cachorro" class="opcoes" onmouseover="Preencher('cachorro', testa=true)" onmouseleave="Preencher('cachorro', testa=false)"><span id="opcCachorro" class="branco">Cachorros</span></li></a>
+                    <a href="gatos.html"><li id="gato" class="opcoes" onmouseover="Preencher('gato', testa=true)" onmouseleave="Preencher('gato', testa=false)"><span id="opcGato" href="info.html" class="branco">Gatos</span></li></a>
+                    <a href="medicamentos.html"><li id="medicamento" class="opcoes" onmouseover="Preencher('medicamento', testa=true)" onmouseleave="Preencher('medicamento', testa=false)"><span id="opcMedicamento" href="info.html" class="branco">Medicamentos</span></li></a>
+                    <a href="sobre.html"><li id="sobre" class="opcoes" style="border: none;" onmouseover="Preencher('sobre', testa=true)" onmouseleave="Preencher('sobre', testa=false)"><span id="opcSobre" href="info.html" class="branco">Sobre</span></li></a>
                 </ul>
             </div>
         
         </div>
     </header>
+
+    <div class="limpar"></div>
 
     <main> <!-- Conteúdo -->
         <div class="container">

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+html {
+  /*a cada 1rem será considerada 10px */
+  /* o rem pega o tamanho do pai que é esse font-size aqui do html */
+  font-size: 67.5%; }
+
+main {
+  font-size: 1.8rem; }
+
+#banner {
+  width: 100%;
+  border: 1px solid black;
+  height: 18.0rem;
+  background-color: #561D25;
+  font-size: 1.8rem; }
+
+#titulo1 {
+  float: left;
+  margin-left: 10%;
+  margin-top: 3.0rem;
+  color: white;
+  font-size: 6.0rem; }
+
+#barraPesquisa {
+  width: 52%;
+  float: left;
+  margin-left: 5%;
+  /*Preciso ir arrumando isso aqui nos medias queries, observando os breakpoints */
+  margin-top: 6.0rem; }
+
+#campoPesquisa {
+  font-size: 1.8rem; }
+
+#botaoPesquisa {
+  font-size: 1.8rem; }
+
+#loginUsuario {
+  float: left;
+  width: 100px;
+  color: white;
+  margin-left: 2%;
+  margin-top: 6.0rem;
+  font-size: 1.6rem; }
+
+#carroussel {
+  border: 1px solid red;
+  margin-top: 15px;
+  text-align: center;
+  height: 400px; }
+
+#pet1 {
+  margin-top: 20px;
+  margin-left: 8%; }
+
+#pet2 {
+  margin-top: 20px;
+  margin-left: 8%; }
+
+#carrinho {
+  margin-top: 7.0rem;
+  float: left;
+  margin-left: 2%;
+  font-size: 1.6rem;
+  color: white; }
+
+#menu {
+  float: right;
+  margin-right: 18.5%;
+  margin-top: 31px; }
+
+#areaMenu {
+  margin-left: 0%;
+  list-style: none;
+  padding: 0px; }
+
+.opcoes {
+  width: 22.0rem;
+  /* ~(1024/3) */
+  height: 46.8px;
+  border-right: 1px solid rgba(0, 0, 0, 0.322);
+  text-align: center;
+  float: left;
+  margin-top: 0px; }
+
+#opcInicio {
+  float: left;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 40%; }
+
+#opcCachorro {
+  float: left;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 32%; }
+
+#opcGato {
+  float: left;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 38%; }
+
+#opcMedicamento {
+  float: left;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 24%; }
+
+#opcSobre {
+  float: left;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 38%; }
+
+.limpar {
+  clear: both; }
+
+.branco {
+  color: white; }
+
+/* media queries */
+@media (max-width: 768px) {
+  html {
+    font-size: 50%; }
+  #titulo1 {
+    font-size: 10.0rem;
+    margin-left: 4%;
+    margin-top: 0; }
+  #barraPesquisa {
+    display: none;
+    width: 45%;
+    float: right;
+    margin-top: 6.0rem;
+    margin-right: 10%; }
+  #banner {
+    height: 16.0rem; } }

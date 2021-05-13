@@ -1,0 +1,26 @@
+{
+  "name": "SeuPet",
+  "version": "1.0.0",
+  "description": "PetShop desenvolvido de maneiro autônoma",
+  "main": "script.js",
+  "scripts": {
+    "sass": "node-sass --watch css/style.scss css/style.css",
+    "sass-min": "node-sass --watch css/style.scss css/style.min.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurOliveiraTeles/SeuPet.git"
+  },
+  "keywords": [],
+  "author": "Arthur Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurOliveiraTeles/SeuPet/issues"
+  },
+  "homepage": "https://github.com/ArthurOliveiraTeles/SeuPet#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}

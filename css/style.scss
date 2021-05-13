@@ -92,15 +92,16 @@ $carousel-indicator-active-bg:       $teal;
 $carousel-caption-color:             $white;
 $carousel-transition-duration:       .3s;
 
-
-
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 html {
     /*a cada 1rem será considerada 10px */
     /* o rem pega o tamanho do pai que é esse font-size aqui do html */
     font-size: 67.5%;
-    font-family: ;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 main {
@@ -118,9 +119,10 @@ main {
 #titulo1 {
     float: left;
     margin-left: 10%;
-    margin-top: 3.0rem;
+    margin-top: 1.0rem;
     color: white;
-    font-size: 6.0rem;
+    font-size: 10.0rem;
+    font-family: 'Amatic SC', cursive;
 }
 
 #barraPesquisa {
@@ -175,8 +177,7 @@ main {
 #menu {
     float: right;
     margin-right: 18.5%;
-    margin-top: 31px;
-
+    display: none; /*Só para o live server parar de bugar*/
 }
 
 #areaMenu {

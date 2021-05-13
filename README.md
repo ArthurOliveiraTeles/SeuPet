@@ -1,2 +1,2 @@
 # SeuPet
- PetShop desenvolvido de maneiro autônoma
+ PetShop desenvolvido de maneira autônoma

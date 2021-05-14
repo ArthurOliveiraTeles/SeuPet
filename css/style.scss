@@ -41,6 +41,7 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+$myColor: #8d64db;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -110,7 +111,6 @@ main {
 
 #banner {
     width: 100%;
-    border: 1px solid black;
     height: 18.0rem;
     background-color: #561D25;
     font-size: 1.8rem;
@@ -177,7 +177,7 @@ main {
 #menu {
     float: right;
     margin-right: 18.5%;
-    display: none; /*Só para o live server parar de bugar*/
+    /*display: none; /*Só para o live server parar de bugar*/
 }
 
 #areaMenu {
@@ -193,6 +193,79 @@ main {
     text-align: center;
     float: left;
     margin-top: 0px;
+}
+
+.opcoes2 {
+    width: 22.0rem; /* ~(1024/3) */
+    background-color: white;
+    border-right: 1px solid rgba(0, 0, 0, 0.322);
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+}
+
+#menu2 {
+    position: absolute; 
+    z-index: 10;
+    right: 0;
+    margin-right: 18.5%;
+}
+
+#areaMenu2 {
+    margin-left: 0%;
+    list-style: none;
+    padding: 0px;
+}
+
+.sub-item {
+    border-radius: 3px;
+    background-color: #66ddb9bb;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#sub-inicio {
+    opacity: 0;
+}
+
+#sub-cachorro {
+    display: none;
+    /*background-color: #2f9b7aca;*/
+}
+
+#sub-gato {
+    opacity: 0;
+}
+
+#sub-medicamento {
+    opacity: 0;
+}
+
+#sub-sobre {
+    opacity: 0;
+}
+
+
+
+/* Verificar as propriedes depois
+#hamburguer1 {
+    background-color: blue;
+    position: absolute;
+    float: left; 
+    border: 1px solid black; 
+    z-index: 10;
+    -webkit-transition-: opacity 1s ease-out; 
+    opacity: 0; 
+} */
+
+
+
+#hamburguer1:hover{
+    opacity: 1;
+    margin-top: 47px;
+    width: 237.1px;
+    height: 100px;
 }
 
 #opcInicio {

@@ -41,7 +41,7 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
-$myColor: #8d64db;
+$myColor: #561D25;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -89,7 +89,7 @@ $carousel-control-color: $purple;
 
 $carousel-indicator-width:           100px;
 $carousel-indicator-height:          10px;
-$carousel-indicator-active-bg:       $teal;
+$carousel-indicator-active-bg:       $myColor;
 $carousel-caption-color:             $white;
 $carousel-transition-duration:       .3s;
 
@@ -155,6 +155,31 @@ main {
     text-align: center;
     height: 400px;
 }
+
+#areaContainer {
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+    height: 900px;
+}
+
+#bannerContainer1 {
+    border-radius: 10px;
+    margin-top: 2.0rem;
+    margin-left: 1.0rem;
+    height: 60px;
+    width: 98.5%;
+    background-color: #561D25;
+}
+
+.tituloBanner {
+    color: white;
+    margin-left: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4.6rem;
+}
+
+
 
 #pet1 {
     margin-top: 20px;

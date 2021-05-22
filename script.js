@@ -21,19 +21,19 @@ function Preencher(texto, testa) {
         }
 
         else if(texto == "subItemCachorro") {
-            subItemCachorro.style.backgroundColor="#2f9b7aca"
+            subItemCachorro.style.backgroundColor="#371774"
         }
 
         else if(texto == "subItem2Cachorro") {
-            subItem2Cachorro.style.backgroundColor="#2f9b7aca"
+            subItem2Cachorro.style.backgroundColor="#371774"
         }
 
         else if(texto == "subItemGato") {
-            subItemGato.style.backgroundColor="#2f9b7aca"
+            subItemGato.style.backgroundColor="#371774"
         }
 
         else if(texto == "subItem2Gato") {
-            subItem2Gato.style.backgroundColor="#2f9b7aca"
+            subItem2Gato.style.backgroundColor="#371774"
         }
     }
 
@@ -44,10 +44,10 @@ function Preencher(texto, testa) {
         gato.style.backgroundColor="#561D25"
         medicamento.style.backgroundColor="#561D25"
         sobre.style.backgroundColor="#561D25"
-        subItemCachorro.style.backgroundColor="#66ddb9bb"
-        subItem2Cachorro.style.backgroundColor="#66ddb9bb"
-        subItemGato.style.backgroundColor="#66ddb9bb"
-        subItem2Gato.style.backgroundColor="#66ddb9bb"
+        subItemCachorro.style.backgroundColor="#6f42c1"
+        subItem2Cachorro.style.backgroundColor="#6f42c1"
+        subItemGato.style.backgroundColor="#6f42c1"
+        subItem2Gato.style.backgroundColor="#6f42c1"
     }
 }
 

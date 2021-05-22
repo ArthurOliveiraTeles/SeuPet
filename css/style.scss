@@ -259,9 +259,12 @@ main {
 
 #menu2 {
     position: absolute; 
+    display: none;
     z-index: 10;
     right: 0; /*usado para simular uma flutuação para a direita */
     margin-right: 18.5%;
+    /*background-color: red;*/
+    transition-property: opacity;
 }
 
 #areaMenu2 {
@@ -276,14 +279,10 @@ main {
     margin-bottom: 5px;
 }
 
-#sub-inicio {
+#subInicio {
     opacity: 0;
 }
 
-#sub-cachorro {
-    display: none;
-    /*background-color: #2f9b7aca;*/
-}
 
 #subItemCachorro {
     width: 237px;
@@ -293,15 +292,21 @@ main {
     width: 237px;
 }
 
-#sub-gato {
+#subGato {
     opacity: 0;
 }
 
-#sub-medicamento {
+.NoClick {
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+#subMedicamento {
     opacity: 0;
 }
 
-#sub-sobre {
+#subSobre {
     opacity: 0;
 }
 

@@ -34,8 +34,8 @@
             <div id="menu"  style="position: relative;">
                 <ul id="areaMenu">
                     <a href="index.html"><li id="inicio" class="opcoes" onmouseover="Preencher('inicio', testa=true)" onmouseleave="Preencher('inicio', testa=false)"><span id="opcInicio" class="branco">Início</span></li></a>
-                    <a href="cachorros.html"><li id="cachorro" class="opcoes" onmouseover="Preencher('cachorro', testa=true), MostraSub(testa=true)" onmouseleave="Preencher('cachorro', testa=false), MostraSub(testa=false)"><span id="opcCachorro" class="branco">Cachorros</span></li></a>
-                    <a href="gatos.html"><li id="gato" class="opcoes" onmouseover="Preencher('gato', testa=true)" onmouseleave="Preencher('gato', testa=false)"><span id="opcGato" href="info.html" class="branco">Gatos</span></li></a>
+                    <a href="cachorros.html"><li id="cachorro" class="opcoes" onmouseover="Preencher('cachorro', testa=true), MostraSub('subCachorro', testa=true)" onmouseleave="Preencher('cachorro', testa=false), MostraSub(testa=false)"><span id="opcCachorro" class="branco">Cachorros</span></li></a>
+                    <a href="gatos.html"><li id="gato" class="opcoes" onmouseover="Preencher('gato', testa=true), MostraSub('subGato',testa=true)" onmouseleave="Preencher('gato', testa=false), MostraSub(testa=false)"><span id="opcGato" href="info.html" class="branco">Gatos</span></li></a>
                     <a href="medicamentos.html"><li id="medicamento" class="opcoes" onmouseover="Preencher('medicamento', testa=true)" onmouseleave="Preencher('medicamento', testa=false)"><span id="opcMedicamento" href="info.html" class="branco">Medicamentos</span></li></a>
                     <a href="sobre.html"><li id="sobre" class="opcoes" style="border: none;" onmouseover="Preencher('sobre', testa=true)" onmouseleave="Preencher('sobre', testa=false)"><span id="opcSobre" href="info.html" class="branco">Sobre</span></li></a>
                 </ul>
@@ -44,24 +44,27 @@
 
             <!--Lista aninhada-->
             <!--Essa é a sub-lista do menu de opções-->
-            <div id="menu2">
+            <div id="menu2" >
               <ul id="areaMenu2">
-                <li id="sub-inicio" class="opcoes2">
+                <li id="subInicio" class="opcoes2">
                   Dentro do sub-item 1
                 </li>
-                <li id="sub-cachorro" class="opcoes2" onmouseover="MostraSub(testa=false, entraNoSub=true)" onmouseleave="MostraSub(testa=false)">
+                <li id="subCachorro" class="opcoes2" onmouseover="MostraSub('subCachorro', testa=true)" onmouseleave="MostraSub(testa=false)">
                   <ul style="list-style: none; padding-left: 0%; ">
                     <a href="racasCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItemCachorro" onmouseover="Preencher('subItemCachorro', true)" onmouseleave="Preencher('subItemCachorro', testa=false)">Raças</li></a>
                     <a href="sobreCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItem2Cachorro" onmouseover="Preencher('subItem2Cachorro', true)" onmouseleave="Preencher('subItem2Cachorro', testa=false)">Sobre os cães</li></a>
                   </ul>
                 </li>
-                <li  id="sub-gato" class="opcoes2">
-                  Dentro do sub-item 3
+                <li  id="subGato" class="opcoes2" onmouseover="MostraSub('subGato', testa=true)" onmouseleave="MostraSub(testa=false)">
+                  <ul style="list-style: none; padding-left: 0%; ">
+                    <a href="racasCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItemGato" onmouseover="Preencher('subItemGato', true)" onmouseleave="Preencher('subItemGato', testa=false)">Raças</li></a>
+                    <a href="sobreCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItem2Gato" onmouseover="Preencher('subItem2Gato', true)" onmouseleave="Preencher('subItem2Gato', testa=false)">Sobre os gatos</li></a>
+                  </ul>
                 </li>
-                <li id="sub-medicamento" class="opcoes2">
+                <li id="subMedicamento" class="opcoes2">
                   Dentro do sub-item 4
                 </li>
-                <li id="sub-sobre" class="opcoes2">
+                <li id="subSobre" class="opcoes2">
                   Dentro do sub-item 5
                 </li>
               </ul>

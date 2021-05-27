@@ -184,11 +184,38 @@ main {
     float: left;
 }
 
+.cadastrarNovidades {
+    text-align: center;
+}
+
 .icon {
     float: right;
     margin-top: 2.5px;
     margin-right: 1%;
     height: 54px;
+}
+
+div.iconDepartamento {
+    border: 1px solid $myColor2;  
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+div.iconDepartamento:hover {
+    transition: 0.5s;
+    background-color: #833bf686;
+}
+
+div.iconDepartamento:active {
+    transition: 0.5s;
+    background-color: #6422cebb;
+}
+
+.imgDepartamento {
+    margin: auto;
+    margin-top: 6px;
 }
 
 #botao1 {

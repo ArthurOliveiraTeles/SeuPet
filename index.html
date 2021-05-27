@@ -19,9 +19,10 @@
                 <div class="container-fluid">
                   <form class="d-flex flex-grow-1"> <!--Adicionei o flex-grow-1 para preencher todo o tamanho da caixa de pesquisa-->
                     <input class="form-control me-2" type="search" placeholder="Pesquise..." aria-label="Search" id="campoPesquisa" >
-                    <button class="btn btn-outline-success" type="submit" id="botaoPesquisa"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <button class="btn btn-outline-primary" type="submit" id="botaoPesquisa"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg></button>
+                      </svg>
+                    </button>
                   </form>
                 </div>
                 
@@ -314,19 +315,62 @@
                   reprehenderit, mollitia perferendis necessitatibus est illum! Perspiciatis, reiciendis placeat?
                 </div>
 
-                <div class="col" style="margin-top: 20px;">
-                  <form class="row gx-3 gy-2 align-items-center">
+                <div class="col-lg col-md-12">
                     <div class="col-12">
-                      <label class="visually-hidden" for="specificSizeInputName">Name</label>
-                      <input type="text" class="form-control form-control-lg" id="specificSizeInputName" placeholder="ex: alice8souza@gmail.com" style="font-size: 1.8rem;">
-                    </div>
+                      <h2 class="cadastrarNovidades">Insira o seu e-mail aqui!</h2>
 
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-primary" id="botao2">Cadastrar</button>
+                      <div class="row">
+                        <div class="col-10">
+                          <input type="text" class="form-control form-control-lg" id="specificSizeInputName" placeholder="ex: alice8souza@gmail.com" style="font-size: 1.8rem;">
+                        </div>
+
+                        <div class="col-2">
+                          <button type="submit" class="btn btn-primary" id="botao2">Cadastrar</button>
+                        </div>
+                      </div>
                     </div>
-                  </form>
+                </div>
+              </div>
+
+              <div class="row" style="margin-top: 30px;">
+                <div class="col">
+                  <h3><b>Departamentos</b></h3>
+                  <hr>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="offset-4 col-1">
+                  <a href="cachorros.html">
+                    <div class="iconDepartamento">
+                      <img src="imgs/dog_departamento.png" class="imgDepartamento" title="Cachorros">
+                    </div>
+                  </a>
                 </div>
 
+                <div class="col-1">
+                  <a href="gatos.html">
+                    <div class="iconDepartamento">
+                      <img src="imgs/cat_departamento.png" class="imgDepartamento" title="Gatos" style="margin-left: 3.9px;">
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-1">
+                  <a href="medicamentos.html">
+                    <div class="iconDepartamento">
+                      <img src="imgs/pet-medication_departamento.png" class="imgDepartamento" title="Medicamentos">
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-1">
+                  <a href="trabalheConosco.html">
+                    <div class="iconDepartamento">
+                      <img src="imgs/icon-trabalheConosco_departamento.png" class="imgDepartamento" title="Trabalhe Conosco">
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
               

@@ -20,6 +20,8 @@ function Preencher(texto, testa) {
            sobre.style.backgroundColor="rgba(0, 0, 0, 0.459)"
         }
 
+        // Verificação dos sub itens
+
         else if(texto == "subItemCachorro") {
             subItemCachorro.style.backgroundColor="#371774"
         }
@@ -55,10 +57,12 @@ function MostraSub(texto=false, testa) { // Preciso indicar depois nessa funçã
     // Como padrão o entraNoSub é false
     
     if(texto == "subCachorro") {
-        // Removendo o outro sub-menu para o usuário não interagir
+        // Removendo os outros sub-menu para o usuário não interagir
 
-        subCachorro.classList.remove('NoClick')
+        subCachorro.classList.remove('NoClick') // Removendo essa classe para o usuário conseguir clicar no sub-menu de cachorro.
         var subItem = document.getElementById('subCachorro')
+
+        // Removendo as outras seções de sub-menus para o usuário não interagir
         subGato.classList.add('NoClick')
         subGato.style.opacity=0
 

@@ -41,7 +41,7 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
-$myColor: #561D25;
+$myColor: #44171d;
 $myColor2: #371774;
 // scss-docs-end color-variables
 
@@ -117,7 +117,7 @@ main {
 #banner {
     width: 100%;
     height: 18.0rem;
-    background-color: #561D25;
+    background-color: #551d24;
     font-size: 1.8rem;
 }
 
@@ -182,7 +182,7 @@ main {
     margin-left: 1.0rem;
     height: 60px;
     width: 98.5%;
-    background-color: #561D25;
+    background-color: #551d24;
 }
 
 .tituloBanner {
@@ -247,7 +247,8 @@ div.iconDepartamento:active {
 }
 
 .petTexto1 {
-    margin-top: 45px;
+    text-align: justify;
+    margin-top: 25px;
 }
 
 .areaPet1 {
@@ -322,8 +323,8 @@ div.iconDepartamento:active {
 }
 
 .sub-item {
-    background-color: $purple;
-    color: white;
+    background-color: rgb(228, 228, 228);
+    color: black;
     font-size: 1.6rem;
     margin-top: 5px;
     margin-bottom: 5px;

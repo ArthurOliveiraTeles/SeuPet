@@ -23,33 +23,33 @@ function Preencher(texto, testa) {
         // Verificação dos sub itens
 
         else if(texto == "subItemCachorro") {
-            subItemCachorro.style.backgroundColor="#371774"
+            subItemCachorro.style.backgroundColor="rgb(138, 138, 138)"
         }
 
         else if(texto == "subItem2Cachorro") {
-            subItem2Cachorro.style.backgroundColor="#371774"
+            subItem2Cachorro.style.backgroundColor="rgb(138, 138, 138)"
         }
 
         else if(texto == "subItemGato") {
-            subItemGato.style.backgroundColor="#371774"
+            subItemGato.style.backgroundColor="rgb(138, 138, 138)"
         }
 
         else if(texto == "subItem2Gato") {
-            subItem2Gato.style.backgroundColor="#371774"
+            subItem2Gato.style.backgroundColor="rgb(138, 138, 138)"
         }
     }
 
 
     if (testa == false) {
-        inicio.style.backgroundColor="#561D25"
-        cachorro.style.backgroundColor="#561D25"
-        gato.style.backgroundColor="#561D25"
-        medicamento.style.backgroundColor="#561D25"
-        sobre.style.backgroundColor="#561D25"
-        subItemCachorro.style.backgroundColor="#6f42c1"
-        subItem2Cachorro.style.backgroundColor="#6f42c1"
-        subItemGato.style.backgroundColor="#6f42c1"
-        subItem2Gato.style.backgroundColor="#6f42c1"
+        inicio.style.backgroundColor="#551d24"
+        cachorro.style.backgroundColor="#551d24"
+        gato.style.backgroundColor="#551d24"
+        medicamento.style.backgroundColor="#551d24"
+        sobre.style.backgroundColor="#551d24"
+        subItemCachorro.style.backgroundColor="rgb(228, 228, 228)"
+        subItem2Cachorro.style.backgroundColor="rgb(228, 228, 228)"
+        subItemGato.style.backgroundColor="rgb(228, 228, 228)"
+        subItem2Gato.style.backgroundColor="rgb(228, 228, 228)"
     }
 }
 

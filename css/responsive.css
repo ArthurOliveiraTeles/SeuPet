@@ -55,18 +55,18 @@
     }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1100px) {
+@media screen and (max-width: 1295px) and (min-width: 1140px) {
     html {
         font-size: 60%;
     }
 
     #menu {
-        margin-right: 7%;
+        margin-right: 9%;
         margin-top: 19px;
     }
 
     #menu2 {
-        margin-right: 7%;
+        margin-right: 9%;
     }
 
     #titulo1 {
@@ -75,8 +75,8 @@
         margin-left: 6%
     }
 
-    #barraPesquisa {
-        width: 42%;
+    #loginUsuario{
+        margin-left: 3%;
     }
 
     .opcoes {
@@ -99,6 +99,84 @@
         margin-left: 120px;
     }
 }
+
+@media screen and (max-width: 1140px) and (min-width: 900px) {
+    html {
+        font-size: 50%;
+    }
+
+    #menu {
+        margin-right: 10%;
+        margin-top: 8px;
+    }
+
+    #menu2 {
+        margin-right: 10%;
+    }
+
+    #barraPesquisa {
+        width: 48%;
+    }
+
+    #titulo1 {
+        font-size: 8.0rem;
+        margin-top: 1.4rem;
+        margin-left: 6%
+    }
+
+    #loginUsuario{
+        margin-left: 3%;
+    }
+
+    .opcoes {
+        font-size: 1.6rem;
+        width: 180px;
+        height: 43.8px;
+    }
+
+    .opcoes2 {
+        font-size: 1.6rem;
+        width: 180px;
+        height: 43.8px;
+    }
+
+    .opcoes3 {
+        font-size: 40%;
+    }
+
+    .areaPet1 {
+        margin-left: 120px;
+    }
+}
+
+@media Only screen and (max-width: 1017px) {
+    #menu, #menu2 {
+        margin-right: 7%;
+    }
+
+    .opcoes {
+        font-size: 1.6rem;
+        width: 160px;
+        height: 43.8px;
+    }
+
+    .opcoes2 {
+        font-size: 1.6rem;
+        width: 160px;
+        height: 43.8px;
+    }
+
+    #barraPesquisa {
+        width: 44%;
+    }
+
+    #carrinho {
+        margin-left: 1%;
+    }
+
+
+}
+
 
 @media Only screen and (max-width: 1199px) {
     .imgLgScreen {

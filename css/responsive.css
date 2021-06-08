@@ -1,0 +1,112 @@
+@media screen and (max-width: 1720px) {
+    #menu {
+        margin-right: 16%;
+    }
+
+    #menu2 {
+        margin-right: 16%;
+    }
+}
+
+@media screen and (max-width: 1630px) {
+    #menu {
+        margin-right: 13%;
+    }
+
+    #menu2 {
+        margin-right: 13%;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    #menu {
+        margin-right: 10%;
+    }
+
+    #menu2 {
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    #menu {
+        margin-right: 7%;
+    }
+
+    #menu2 {
+        margin-right: 7%;
+    }
+
+
+    #titulo1 {
+        margin-left: 7%
+    }
+
+    .img-thumbnail {
+        width: 100px;
+    }
+
+    h2, .h2 {
+        font-size: 1.6rem;
+    }
+
+    .areaPet1 {
+        margin-left: 127px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1100px) {
+    html {
+        font-size: 60%;
+    }
+
+    #menu {
+        margin-right: 7%;
+        margin-top: 19px;
+    }
+
+    #menu2 {
+        margin-right: 7%;
+    }
+
+    #titulo1 {
+        font-size: 8.0rem;
+        margin-top: 1.4rem;
+        margin-left: 6%
+    }
+
+    #barraPesquisa {
+        width: 42%;
+    }
+
+    .opcoes {
+        font-size: 1.6rem;
+        width: 200px;
+        height: 43.8px;
+    }
+
+    .opcoes2 {
+        font-size: 1.6rem;
+        width: 200px;
+        height: 43.8px;
+    }
+
+    .opcoes3 {
+        font-size: 40%;
+    }
+
+    .areaPet1 {
+        margin-left: 120px;
+    }
+}
+
+@media Only screen and (max-width: 1199px) {
+    .imgLgScreen {
+        display: none;
+    }
+
+    .imgMdScreen {
+        display: block;
+        margin: auto;
+    }
+}

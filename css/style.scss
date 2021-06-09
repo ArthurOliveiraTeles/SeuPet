@@ -169,7 +169,7 @@ main {
 
 #areaSocialMedia {
     font-size: 1.8rem;
-    margin-right: 10%;
+
 }
 
 .areaLinksFooter {
@@ -264,8 +264,35 @@ div.iconDepartamento:active {
     margin-left: 9%;
 }
 
+.textoMdScreen {
+    display: none;
+    font-family: 'Amatic SC', cursive;
+    color: #6f42c1;
+    font-size: 4.8rem;
+    text-align: center;
+}
+
 #rowOpcoesContainer {
     margin-left: 40px;
+}
+
+#rowOpcoesContainer2 {
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+    margin-left: 40px;
+    user-select: none;
+    pointer-events: none;
+}
+
+#row2OpcoesContainer2 {
+    opacity: 0;
+    z-index: -10;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+    user-select: none;
+    pointer-events: none;
 }
 
 .areaPet1 {

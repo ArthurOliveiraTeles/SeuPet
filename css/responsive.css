@@ -113,7 +113,7 @@
         clear: both;
         margin-right: 0%;
         position: absolute;
-        left: 47%;
+        left: 46%;
     }
 }
 
@@ -236,13 +236,13 @@
     }
 
     .opcoes {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         width: 160px;
         height: 43.8px;
     }
 
     .opcoes2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         width: 160px;
         height: 43.8px;
     }
@@ -277,11 +277,132 @@
     }
 }
 
-@media screen and (max-width: 880px) {
-    #menu, #menu2, #barraPesquisa {
-        display: none;
+@media screen and (max-width: 880px) and (min-width: 769px) { /* 768 marca o col-md do bootstrap */
+    html {
+        font-size: 55%;
+    }
+
+    #menu {
+        margin-right: 6.7%;
+        margin-top: 12px;
+    }
+
+    #menu2 {
+        margin-right: 6.7%;
+    }
+
+    #barraPesquisa {
+        width: 37%;
+    }
+
+    #titulo1 {
+        font-size: 8.0rem;
+        margin-top: 1.4rem;
+        margin-left: 6%
+    }
+
+    #loginUsuario{
+        margin-left: 3%;
+    }
+
+    .opcoes {
+        font-size: 1.3rem;
+        width: 140px;
+        height: 44.8px;
+    }
+
+    .opcoes2 {
+        font-size: 1.3rem;
+        width: 140px;
+        height: 44.8px;
+    }
+
+    #banner {
+        height: 18.0rem;
+    }
+
+    .areaPet1 {
+        margin-left: 120px;
+    }
+
+    #botao2 {
+        margin-top: 1px;
+        font-size: 1.6rem;
+    }
+
+    .offset-4 {
+        margin-left: 25%;
+    }
+
+    #marginRightDepartamento {
+        margin-right: 32px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+
+    .petTexto1 {
+        font-size: 2.2rem;
+    }
+
+    .areaPet1, #rowOpcoesContainer, #menu, #menu2, #barraPesquisa {
+        display: none;
+    }
+
+    .textoMdScreen {
+        display: block;
+    }
+
+    #rowOpcoesContainer2, #row2OpcoesContainer2 {
+        position: relative;
+        z-index: 0;
+        opacity: 1;
+        left: 10.5%;
+        user-select: auto;
+        pointer-events: visible;
+    }
+
+    .img-thumbnail {
+        margin-bottom: 30px;
+        width: 85px;
+    }
+
+    .offset-3 {
+        margin-left: 19%;
+    }
+
+    #botao1 {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .petTexto1 {
+        font-size: 1.8rem;
+    }
+
+    #rowOpcoesContainer2, #row2OpcoesContainer2 {
+        text-align: center;
+        left: 0%;
+    }
+
+    #row2OpcoesContainer2 {
+        margin-top: 0px;
+    }
+
+    .offset-3 {
+        margin-left: 19%;
+    }
+
+    #botao1 {
+        left: 40%;
+    }
+}
+
+
 
 
 @media Only screen and (max-width: 1199px) {
@@ -301,13 +422,13 @@
     }
 
     .opcoes {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         width: 160px;
         height: 43.8px;
     }
 
     .opcoes2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         width: 160px;
         height: 43.8px;
     }
@@ -322,5 +443,3 @@
 
 
 }
-
-

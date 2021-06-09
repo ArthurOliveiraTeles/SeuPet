@@ -106,6 +106,10 @@
     #marginRightDepartamento {
         margin-right: 20px;
     }
+
+    #marginRightDepartamento2 {
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -173,6 +177,10 @@
         margin-right: 29px;
     }
 
+    #marginRightDepartamento2 {
+        margin-right: 29px;
+    }
+
     #rowOpcoesContainer {
         margin-left: 30px;
     }
@@ -204,6 +212,10 @@
 
     #divCasas {
         margin-left: 4.5%;
+    }
+
+    #areaEmail {
+        margin-top: 30px;
     }
 }
 
@@ -275,6 +287,10 @@
     #marginRightDepartamento {
         margin-right: 27px;
     }
+
+    #marginRightDepartamento2 {
+        margin-right: 27px;
+    }
 }
 
 @media screen and (max-width: 880px) and (min-width: 769px) { /* 768 marca o col-md do bootstrap */
@@ -337,6 +353,10 @@
     #marginRightDepartamento {
         margin-right: 32px;
     }
+
+    #marginRightDepartamento2 {
+        margin-right: 32px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -348,8 +368,37 @@
         font-size: 2.2rem;
     }
 
-    .areaPet1, #rowOpcoesContainer, #menu, #menu2, #barraPesquisa {
+    .areaPet1, #rowOpcoesContainer, #menu, #menu2, #barraPesquisa, #titulo1, #loginUsuario, #carrinho {
         display: none;
+    }
+
+    #banner {
+        float: left;
+    }
+
+    #titulo2 {
+        display: block;
+        float: right;
+        margin-right: 37%;
+        color: white;
+        font-size: 11.0rem;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    #iconeUsuario {
+        display: block;
+        float: left;
+        margin-top: 50px;
+        width: 40px;
+        margin-left: 50px;
+    }
+
+    #iconeCarrinho {
+        display: block;
+        float: left;
+        margin-top: 50px;
+        width: 40px;
+        margin-left: 30px;
     }
 
     .textoMdScreen {
@@ -374,34 +423,169 @@
         margin-left: 19%;
     }
 
+    .offset-4 {
+        margin-left: 25%;
+    }
+
+    #marginRightDepartamento2 {
+        display: none;
+    }
+
+    #areaDepartamentoSmScreen {
+        display: block;
+        margin-top: 30px;
+    }
+
     #botao1 {
         left: 45%;
     }
+
+    .icon {
+        height: 45px;
+    }
+
+    #bannerContainer1 {
+        height: 50px;
+    }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     .petTexto1 {
         font-size: 1.8rem;
     }
 
     #rowOpcoesContainer2, #row2OpcoesContainer2 {
         text-align: center;
-        left: 0%;
+        left: -4%;
     }
 
     #row2OpcoesContainer2 {
         margin-top: 0px;
     }
 
+    #titulo2 {
+        margin-right: 35%;
+    }
+
+    #iconeUsuario {
+        float: left;
+        margin-top: 50px;
+        width: 34px;
+        margin-left: 30px;
+    }
+
+    #iconeCarrinho {
+        float: left;
+        margin-top: 50px;
+        width: 34px;
+        margin-left: 20px;
+    }
+
     .offset-3 {
         margin-left: 19%;
+    }
+
+    .offset-4 {
+        margin-left: 0%;
+    }
+
+    #marginRightDepartamento {
+        margin-bottom: 10px;
+    }
+
+    #areaDepartamentoSmScreen {
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+
+    .iconDepartamento {
+        margin: auto;
+    }
+
+    div.iconDepartamento {
+        width: 65px;
+        height: 65px;
+    }
+
+    .imgDepartamento {
+        width: 50px;
     }
 
     #botao1 {
         left: 40%;
     }
+
+    .icon {
+        height: 35px;
+    }
+
+    #bannerContainer1 {
+        height: 40px;
+    }
 }
 
+@media screen and (max-width: 480px) {
+    #titulo2 {
+        font-size: 9.0rem;
+        margin-top: 5px;
+    }
+
+    #iconeUsuario, #iconeCarrinho {
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #titulo2 {
+        font-size: 7.0rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    html {
+        font-size: 30%
+    }
+
+    #titulo2 {
+        font-size: 10.0rem;
+    }
+
+    #iconeUsuario, #iconeCarrinho {
+        width: 20px;
+        margin-left: 10px;
+    }
+
+    .img-thumbnail {
+        width: 60px;
+    }
+
+    #rowOpcoesContainer2, #row2OpcoesContainer2 {
+        text-align: center;
+        left: -7%;
+    }
+
+    div.iconDepartamento {
+        width: 50px;
+        height: 50px;
+    }
+
+    .imgDepartamento {
+        width: 35px;
+    }
+
+    .icon {
+        height: 25px;
+    }
+
+    #bannerContainer1 {
+        height: 30px;
+    }
+
+    #carouselExampleIndicators {
+        display: none;
+    }
+}
 
 
 

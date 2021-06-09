@@ -130,6 +130,11 @@ main {
     font-family: 'Amatic SC', cursive;
 }
 
+#titulo2, #iconeUsuario, #iconeCarrinho {
+    display: none;
+}
+
+
 #barraPesquisa {
     width: 52%;
     float: left;
@@ -202,6 +207,10 @@ main {
     margin-top: 2.5px;
     margin-right: 1%;
     height: 54px;
+}
+
+#areaDepartamentoSmScreen {
+    display: none;
 }
 
 div.iconDepartamento {

@@ -98,16 +98,33 @@
     .areaPet1 {
         margin-left: 120px;
     }
+
+    .offset-4 {
+        margin-left: 31%;
+    }
+
+    #marginRightDepartamento {
+        margin-right: 20px;
+    }
 }
 
-@media screen and (max-width: 1140px) and (min-width: 900px) {
+@media screen and (max-width: 1199px) {
+    #botao1 {
+        clear: both;
+        margin-right: 0%;
+        position: absolute;
+        left: 47%;
+    }
+}
+
+@media screen and (max-width: 1140px) and (min-width: 925px) {
     html {
-        font-size: 50%;
+        font-size: 60%;
     }
 
     #menu {
         margin-right: 10%;
-        margin-top: 8px;
+        margin-top: 18px;
     }
 
     #menu2 {
@@ -147,11 +164,140 @@
     .areaPet1 {
         margin-left: 120px;
     }
+
+    .offset-4 {
+        margin-left: 30%;
+    }
+
+    #marginRightDepartamento {
+        margin-right: 29px;
+    }
+
+    #rowOpcoesContainer {
+        margin-left: 30px;
+    }
 }
 
-@media Only screen and (max-width: 1017px) {
+@media screen and (max-width: 1040px) {
+    #divCasas {
+        margin-left: 7.5%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #botao2 {
+        margin-top: 1px;
+        font-size: 1.6rem;
+    }
+
+    #rowOpcoesContainer {
+        margin-left: 8px;
+    }
+
+    #textoMedicamentos {
+        margin-right: 24.5%;
+    }
+
+    #textoRacoes {
+        margin-right: 74%;
+    }
+
+    #divCasas {
+        margin-left: 4.5%;
+    }
+}
+
+@media screen and (max-width: 925px) and (min-width: 880px) {
+    html {
+        font-size: 55%;
+    }
+
+    #menu {
+        margin-right: 6%;
+        margin-top: 12px;
+    }
+
+    #menu2 {
+        margin-right: 6%;
+    }
+
+    #barraPesquisa {
+        width: 48%;
+    }
+
+    #titulo1 {
+        font-size: 8.0rem;
+        margin-top: 1.4rem;
+        margin-left: 6%
+    }
+
+    #loginUsuario{
+        margin-left: 3%;
+    }
+
+    .opcoes {
+        font-size: 1.6rem;
+        width: 160px;
+        height: 43.8px;
+    }
+
+    .opcoes2 {
+        font-size: 1.6rem;
+        width: 160px;
+        height: 43.8px;
+    }
+
+    #barraPesquisa {
+        width: 44%;
+    }
+
+    #carrinho {
+        margin-left: 1%;
+    }
+
+    .opcoes3 {
+        font-size: 40%;
+    }
+
+    .areaPet1 {
+        margin-left: 120px;
+    }
+
+    #botao2 {
+        margin-top: 1px;
+        font-size: 1.6rem;
+    }
+
+    .offset-4 {
+        margin-left: 30%;
+    }
+
+    #marginRightDepartamento {
+        margin-right: 27px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    #menu, #menu2, #barraPesquisa {
+        display: none;
+    }
+}
+
+
+@media Only screen and (max-width: 1199px) {
+    .imgLgScreen {
+        display: none;
+    }
+
+    .imgMdScreen {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media Only screen and (max-width: 1017px) and (min-width: 925px) {
     #menu, #menu2 {
-        margin-right: 7%;
+        margin-right: 10%;
     }
 
     .opcoes {
@@ -178,13 +324,3 @@
 }
 
 
-@media Only screen and (max-width: 1199px) {
-    .imgLgScreen {
-        display: none;
-    }
-
-    .imgMdScreen {
-        display: block;
-        margin: auto;
-    }
-}

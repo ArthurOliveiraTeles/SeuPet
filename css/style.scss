@@ -235,9 +235,8 @@ div.iconDepartamento:active {
 
 
 #botao2 {
-    float: right;
-    right: 0%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    margin-top: 5px;
 }
 
 
@@ -249,6 +248,24 @@ div.iconDepartamento:active {
 .petTexto1 {
     text-align: justify;
     margin-top: 25px;
+}
+
+#textoRacoes {
+    margin-right: 54%;
+    float: right;
+}
+
+#textoMedicamentos {
+    margin-right: 4.5%; 
+    float: right;
+}
+
+#divCasas {
+    margin-left: 9%;
+}
+
+#rowOpcoesContainer {
+    margin-left: 40px;
 }
 
 .areaPet1 {
@@ -422,7 +439,7 @@ div.iconDepartamento:active {
 }
 
 
-/* media queries */
+/* media queries
 @media (max-width: 768px) {
     html {
         font-size: 50%;
@@ -446,3 +463,5 @@ div.iconDepartamento:active {
         height: 16.0rem;
     }
 }
+
+ */

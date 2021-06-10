@@ -379,7 +379,7 @@
     #titulo2 {
         display: block;
         float: right;
-        margin-right: 37%;
+        margin-right: 20%;
         color: white;
         font-size: 11.0rem;
         font-family: 'Amatic SC', cursive;
@@ -387,15 +387,16 @@
 
     #iconeUsuario {
         display: block;
-        float: left;
+        float: right;
         margin-top: 50px;
         width: 40px;
-        margin-left: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #iconeCarrinho {
         display: block;
-        float: left;
+        float: right;
         margin-top: 50px;
         width: 40px;
         margin-left: 30px;
@@ -447,6 +448,86 @@
     #bannerContainer1 {
         height: 50px;
     }
+
+    /*Menu hamburger*/
+    .menu-section.on nav { /*Quando estiver ligado*/
+        display: block;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #ffff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle {
+        float: left;
+        width: 40px;
+        height: 30px;
+        margin-left: 25px;
+        margin-top: 45px;
+    }
+
+    /*Fullscreen*/
+
+    .menu-section.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #7159c1;
+
+        z-index: 10; /*camada 10*/
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition-duration: 0.3s;
+        
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        left: 0;
+        top: 1px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav ul {
+        text-align: center;
+        list-style: none;
+        display: block;
+    }
+
+    .menu-section.on nav ul a {
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 8rem;
+        display: block;
+    }
+
+
+
 }
 
 @media screen and (max-width: 575px) {
@@ -464,18 +545,18 @@
     }
 
     #titulo2 {
-        margin-right: 35%;
+        margin-right: 13%;
     }
 
     #iconeUsuario {
-        float: left;
+        float: right;
         margin-top: 50px;
         width: 34px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
 
     #iconeCarrinho {
-        float: left;
+        float: right;
         margin-top: 50px;
         width: 34px;
         margin-left: 20px;
@@ -528,6 +609,7 @@
     #titulo2 {
         font-size: 9.0rem;
         margin-top: 5px;
+        margin-right: 16%;
     }
 
     #iconeUsuario, #iconeCarrinho {
@@ -539,6 +621,15 @@
 @media screen and (max-width: 360px) {
     #titulo2 {
         font-size: 7.0rem;
+        margin-right: 10%;
+    }
+
+    .menu-toggle {
+        float: left;
+        width: 30px;
+        height: 20px;
+        margin-left: 25px;
+        margin-top: 45px;
     }
 }
 
@@ -549,6 +640,7 @@
 
     #titulo2 {
         font-size: 10.0rem;
+        margin-right: 7%;
     }
 
     #iconeUsuario, #iconeCarrinho {
@@ -584,6 +676,14 @@
 
     #carouselExampleIndicators {
         display: none;
+    }
+
+    .menu-toggle {
+        float: left;
+        width: 20px;
+        height: 10px;
+        margin-left: 25px;
+        margin-top: 25px;
     }
 }
 

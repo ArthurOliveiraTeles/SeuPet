@@ -37,12 +37,13 @@
         <div id="menu"  style="position: relative;">
           <ul id="areaMenu">
             <a href="index.html"><li id="inicio" class="opcoes" onmouseover="Preencher('inicio', testa=true)" onmouseleave="Preencher('inicio', testa=false)"><span id="opcInicio" class="branco">Início</span></li></a>
-            <a href="cachorros.html"><li id="cachorro" class="opcoes" onmouseover="Preencher('cachorro', testa=true), MostraSub('subCachorro', testa=true)" onmouseleave="Preencher('cachorro', testa=false), MostraSub(testa=false)"><span id="opcCachorro" class="branco">Cachorros</span></li></a>
-            <a href="gatos.html"><li id="gato" class="opcoes" onmouseover="Preencher('gato', testa=true), MostraSub('subGato',testa=true)" onmouseleave="Preencher('gato', testa=false), MostraSub(testa=false)"><span id="opcGato" href="info.html" class="branco">Gatos</span></li></a>
-            <a href="medicamentos.html"><li id="medicamento" class="opcoes" onmouseover="Preencher('medicamento', testa=true)" onmouseleave="Preencher('medicamento', testa=false)"><span id="opcMedicamento" href="info.html" class="branco">Medicamentos</span></li></a>
-            <a href="sobre.html"><li id="sobre" class="opcoes" style="border: none;" onmouseover="Preencher('sobre', testa=true)" onmouseleave="Preencher('sobre', testa=false)"><span id="opcSobre" href="info.html" class="branco">Sobre</span></li></a>
+            <a href="#"><li id="cachorro" class="opcoes" onmouseover="Preencher('cachorro', testa=true), MostraSub('subCachorro', testa=true)" onmouseleave="Preencher('cachorro', testa=false), MostraSub(testa=false)"><span id="opcCachorro" class="branco">Cachorros</span></li></a>
+            <a href="#"><li id="gato" class="opcoes" onmouseover="Preencher('gato', testa=true), MostraSub('subGato',testa=true)" onmouseleave="Preencher('gato', testa=false), MostraSub(testa=false)"><span id="opcGato" href="info.html" class="branco">Gatos</span></li></a>
+            <a href="#"><li id="medicamento" class="opcoes" onmouseover="Preencher('medicamento', testa=true)" onmouseleave="Preencher('medicamento', testa=false)"><span id="opcMedicamento" href="info.html" class="branco">Medicamentos</span></li></a>
+            <a href="#"><li id="sobre" class="opcoes" style="border: none;" onmouseover="Preencher('sobre', testa=true)" onmouseleave="Preencher('sobre', testa=false)"><span id="opcSobre" href="info.html" class="branco">Sobre</span></li></a>
           </ul>
         </div>
+        
         <div class="limpar"></div>
 
         <!--Lista aninhada-->
@@ -54,14 +55,14 @@
             </li>
             <li id="subCachorro" class="opcoes2" onmouseover="MostraSub('subCachorro', testa=true)" onmouseleave="MostraSub(testa=false)">
               <ul style="list-style: none; padding-left: 0%; ">
-                <a href="racasCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItemCachorro" onmouseover="Preencher('subItemCachorro', true)" onmouseleave="Preencher('subItemCachorro', testa=false)">Raças</li></a>
-                <a href="sobreCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItem2Cachorro" onmouseover="Preencher('subItem2Cachorro', true)" onmouseleave="Preencher('subItem2Cachorro', testa=false)">Sobre os cães</li></a>
+                <a href="#" style="text-decoration: none; color: black;"><li class="sub-item" id="subItemCachorro" onmouseover="Preencher('subItemCachorro', true)" onmouseleave="Preencher('subItemCachorro', testa=false)">Raças</li></a>
+                <a href="#" style="text-decoration: none; color: black;"><li class="sub-item" id="subItem2Cachorro" onmouseover="Preencher('subItem2Cachorro', true)" onmouseleave="Preencher('subItem2Cachorro', testa=false)">Sobre os cães</li></a>
               </ul>
             </li>
             <li  id="subGato" class="opcoes2" onmouseover="MostraSub('subGato', testa=true)" onmouseleave="MostraSub(testa=false)">
               <ul style="list-style: none; padding-left: 0%; ">
-                <a href="racasCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItemGato" onmouseover="Preencher('subItemGato', true)" onmouseleave="Preencher('subItemGato', testa=false)">Raças</li></a>
-                <a href="sobreCao.html" style="text-decoration: none; color: black;"><li class="sub-item" id="subItem2Gato" onmouseover="Preencher('subItem2Gato', true)" onmouseleave="Preencher('subItem2Gato', testa=false)">Sobre os gatos</li></a>
+                <a href="#" style="text-decoration: none; color: black;"><li class="sub-item" id="subItemGato" onmouseover="Preencher('subItemGato', true)" onmouseleave="Preencher('subItemGato', testa=false)">Raças</li></a>
+                <a href="#" style="text-decoration: none; color: black;"><li class="sub-item" id="subItem2Gato" onmouseover="Preencher('subItem2Gato', true)" onmouseleave="Preencher('subItem2Gato', testa=false)">Sobre os gatos</li></a>
               </ul>
             </li>
             <li id="subMedicamento" class="opcoes2">
@@ -74,6 +75,35 @@
 
         </div>
         <!--Aqui será a versão de banner para res < 768px-->
+        <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class=three></div>
+          </div>
+
+          <nav>
+            <ul>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;">Início</a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;">Cachorros</a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;">Gatos</a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;">Medicamentos</a>
+              </li>
+              <li>
+                <a href="#" style="color: white; text-decoration: none;">Sobre</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+
         <div>
           <img src="/imgs/user_icon.png" id="iconeUsuario">
         </div>
@@ -83,6 +113,8 @@
         </div>
         <div id="titulo2">SeuPet</div>
       </div>
+
+      
             
     </header>
 
@@ -403,7 +435,7 @@
 
               <div class="row">
                 <div class="offset-4 col-md-1 col-sm-3 col-xs-12" id="marginRightDepartamento">
-                  <a href="cachorros.html">
+                  <a href="#">
                     <div class="iconDepartamento">
                       <img src="imgs/dog_departamento.png" class="imgDepartamento" title="Cachorros">
                     </div>
@@ -411,7 +443,7 @@
                 </div>
 
                 <div class="col-md-1 col-sm-5 col-xs-12" id="marginRightDepartamento">
-                  <a href="gatos.html">
+                  <a href="#">
                     <div class="iconDepartamento">
                       <img src="imgs/cat_departamento.png" class="imgDepartamento" title="Gatos" style="margin-left: 3.9px;">
                     </div>
@@ -419,7 +451,7 @@
                 </div>
 
                 <div class="col-md-1 col-sm-3 col-xs-12" id="marginRightDepartamento2">
-                  <a href="medicamentos.html">
+                  <a href="#">
                     <div class="iconDepartamento">
                       <img src="imgs/pet-medication_departamento.png" class="imgDepartamento" title="Medicamentos">
                     </div>
@@ -427,7 +459,7 @@
                 </div>
 
                 <div class="col-md-1 col-sm-3 col-xs-12" id="marginRightDepartamento2">
-                  <a href="trabalheConosco.html">
+                  <a href="#">
                     <div class="iconDepartamento">
                       <img src="imgs/icon-trabalheConosco_departamento.png" class="imgDepartamento" title="Trabalhe Conosco">
                     </div>
@@ -438,7 +470,7 @@
               <!--Essa linha aparecerá na resolução <768px-->
               <div class="row">
                 <div class="offset-4 col-sm-3" id="areaDepartamentoSmScreen">
-                  <a href="medicamentos.html">
+                  <a href="#">
                     <div class="iconDepartamento">
                       <img src="imgs/pet-medication_departamento.png" class="imgDepartamento" title="Medicamentos">
                     </div>
@@ -446,7 +478,7 @@
                 </div>
 
                 <div class="col-sm-3" id="areaDepartamentoSmScreen">
-                  <a href="trabalheConosco.html">
+                  <a href="#">
                     <div class="iconDepartamento">
                       <img src="imgs/icon-trabalheConosco_departamento.png" class="imgDepartamento" title="Trabalhe Conosco">
                     </div>
@@ -556,6 +588,6 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-       
+  <script src="menu.js"></script>
 </body>
 </html>

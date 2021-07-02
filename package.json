@@ -1,7 +1,7 @@
 {
   "name": "SeuPet",
   "version": "1.0.0",
-  "description": "PetShop desenvolvido de maneiro autônoma",
+  "description": "PetShop desenvolvido de maneira autônoma",
   "main": "script.js",
   "scripts": {
     "sass": "node-sass --watch css/style.scss css/style.css",

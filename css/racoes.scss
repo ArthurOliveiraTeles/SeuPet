@@ -1,0 +1,298 @@
+// Color system
+
+// scss-docs-start gray-color-variables
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+$myColor: #44171d;
+$myColor2: #371774;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $purple,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+
+
+$carousel-control-color: $purple;
+
+$carousel-indicator-width:           100px;
+$carousel-indicator-height:          10px;
+$carousel-indicator-active-bg:       $myColor;
+$carousel-caption-color:             $white;
+$carousel-transition-duration:       .3s;
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+html {
+    /*a cada 1rem será considerada 10px */
+    /* o rem pega o tamanho do pai que é esse font-size aqui do html */
+    font-size: 67.5%;
+}
+
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+main {
+    font-size: 1.8rem;
+}
+
+#banner {
+    width: 100%;
+    height: 18.0rem;
+    background-color: #551d24;
+    font-size: 1.8rem;
+}
+
+#titulo1 {
+    float: left;
+    margin-left: 10%;
+    margin-top: 1.0rem;
+    color: white;
+    font-size: 10.0rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+#titulo2, #iconeUsuario, #iconeCarrinho, nav {
+    display: none;
+}
+
+
+#barraPesquisa {
+    width: 52%;
+    float: left;
+    margin-left: 5%; /*Preciso ir arrumando isso aqui nos medias queries, observando os breakpoints */
+    margin-top: 6.0rem;
+}
+
+#campoPesquisa {
+    font-size: 1.8rem;
+}
+
+#botaoPesquisa {
+    font-size: 1.8rem;
+}
+
+#loginUsuario {
+    float: left;
+    width: 100px;
+    color: white;
+    margin-left: 2%;
+    margin-top: 6.0rem;
+    font-size: 1.6rem;
+}
+
+.opcoes3 {
+    float: left;
+    /*border: 1px solid green;*/
+    margin-left: 5%;
+    width: 20%;
+    text-align: center;
+    /*background-color: #0d6efd;*/
+    font-size: 1.6rem;
+}
+
+#carrinho {
+    margin-top: 7.0rem;
+    float: left;
+    margin-left: 2%;
+    font-size: 1.6rem;
+    color: white;
+}
+
+#menu {
+    float: right;
+    margin-right: 18.5%;
+    /*display: none; /*Só para o live server parar de bugar*/
+}
+
+#areaMenu {
+    margin-left: 0%;
+    list-style: none;
+    padding: 0px;
+}
+
+.opcoes {
+    width: 22.0rem; /* ~(1024/3) */
+    height: 46.8px;
+    border-right: 1px solid rgba(0, 0, 0, 0.322);
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+}
+
+.opcoes2 {
+    width: 22.0rem; /* ~(1024/3) */
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+}
+
+#menu2 {
+    position: absolute; 
+    display: none;
+    z-index: 10;
+    right: 0; /*usado para simular uma flutuação para a direita */
+    margin-right: 18.5%;
+    /*background-color: red;*/
+    transition-property: opacity;
+}
+
+#areaMenu2 {
+    margin-left: 0%;
+    list-style: none;
+    padding: 0px;
+}
+
+.sub-item {
+    background-color: rgb(228, 228, 228);
+    color: black;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#subInicio {
+    opacity: 0;
+}
+
+#subGato {
+    opacity: 0;
+}
+
+.NoClick {
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+#subMedicamento {
+    opacity: 0;
+}
+
+#subSobre {
+    opacity: 0;
+}
+
+#opcInicio {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 40%;
+}
+
+#opcCachorro {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 32%;
+}
+
+#opcGato {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 38%;
+}
+
+#opcMedicamento {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 24%;
+}
+
+#opcSobre {
+    float: left;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 38%;
+}
+
+.limpar {
+    clear: both;
+}
+
+.branco {
+    color: white;
+}
+
+// Padrão para as páginas do site acaba aqui.

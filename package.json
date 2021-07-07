@@ -5,7 +5,9 @@
   "main": "script.js",
   "scripts": {
     "sass": "node-sass --watch css/style.scss css/style.css",
-    "sass-min": "node-sass --watch css/style.scss css/style.min.css --output-style compressed"
+    "sass2": "node-sass --watch css/racoes.scss css/racoes.css",
+    "sass-min": "node-sass --watch css/style.scss css/style.min.css --output-style compressed",
+    "sass-min2": "node-sass --watch css/racoes.scss css/racoes.min.css --output-style compressed"
   },
   "repository": {
     "type": "git",
